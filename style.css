@@ -1,0 +1,299 @@
+.mail-sec{
+  display: flex
+}
+.icon{
+margin-top: 4px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 9px;
+  color: #FF9209;
+  display: flex;
+  align-items: center;
+}
+.email-head{
+  font-size: 20px;
+  margin: 0;
+  font-weight: bold;
+}
+.mail{
+  font-size: 20px;
+}
+.content{
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content p{
+  margin: 0;
+}
+.hero-section{
+  min-height: 90vh;
+  background-image: url(pics/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+ 
+
+}
+
+/* .desc{
+  max-width: 500px;
+  font-size: 14px; 
+  z-index: 100;
+} */
+.college-name{
+  
+  font-size: 50px;
+
+}
+.college-desc{
+  color: rgb(213, 255, 255);
+}
+.contact-btn{
+  background-color: #FF9130;
+  color: white;
+  border: none;
+ border-radius: 18px;
+  padding: 8px 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-weight: bold;
+  border: 2px solid #FF9130;
+}
+.contact-btn:hover{
+  background-color: transparent;
+  color: black;
+  border: 2px solid black;
+}
+
+.bg-warning{
+  background-color: orange;
+  text-align: center;
+  
+}
+.ques{
+  font-size: 50px;
+}
+
+.ans{
+  font-size: 20px;
+  color: rgb(106, 106, 106);
+}
+#offer{
+  font-size: 40px;
+  color: white;
+  background-color: rgb(236, 155, 5);
+  padding: 15px 18px;
+  border-radius: 50%;
+}
+.offers{
+  display: flex;
+  justify-content: space-between;
+}
+.offerIcon{
+  display: flex;
+  align-items: center;
+}
+
+.sirandstudents{
+  height: 500px;
+  width: 100%;
+  margin-top: 50px;
+  object-fit: cover;
+}
+.institute-desc{
+  min-height: 100vh;
+  background-image: url(pics/piast-01.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sir_Arfan{
+  width: 100%;
+}
+.ins-heading{
+  font-weight: bold;
+  font-size: 60px;
+}
+.count{
+  font-weight: bold;
+}
+.cousrses-section-main{
+  min-height:100vh ;
+}
+
+.course-heading{
+  padding-top: 30px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.course-pic{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+.course-dec{
+  width: 100%;
+}
+.applyforCourse{
+  border:1px solid #fb8500 ;
+  background-color: #fb8500;
+  color: white;
+  border-radius: 17px;
+  padding: 5px 15px;
+  transition: all ease 0.3s;
+}
+.applyforCourse:hover{
+  background-color: transparent;
+  color: #fb8500;
+}
+
+
+.course-title{
+  height: 53px;
+}
+
+.subject{
+  color: #FF9209;
+  text-align: center;
+  font-weight: bold;
+}
+
+.teacher-detail{
+  text-align: center;
+}
+
+
+
+.contact-sec{
+  background-image: url(pics/contact.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: azure;
+}
+.reviews{
+  height: 100vh;
+  
+}
+
+.slider-container{
+  height: 400px;
+  
+}
+
+.blog-image{
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+.blog-image img{
+  height: 100%;
+  width: 100%;
+}
+.dateblog{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  width: 60px;
+  background: blueviolet;
+}
+
+.dateblog p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.blogcontent a{
+text-decoration: none;
+color: black;
+font-size: 25px;
+font-weight: bold;
+
+}
+.blogcontent p{
+  font-size: 18px;
+}
+
+.gallerypic img{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+.footer{
+  min-height: 100vh;
+}
+.foot-panel-1 h4{
+  font-weight: bold;
+}
+
+.foot-panel-1 p{
+  margin-top: 40px;
+}
+
+.blog-panel img{
+  width: 100%;
+  object-fit: cover;
+}
+.b-date{
+  color: rgb(104, 106, 106);
+}
+.b-title{
+  font-weight: bold;
+}
+.links{
+  list-style: none;
+}
+li{
+  margin-top: 10px;
+}
+li a{
+  text-decoration: none;
+  color: rgb(104, 106, 106);
+}
+.panel-heading{
+  font-weight: bold;
+}
+#mail-box{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(61, 61, 61);
+  border: none;
+  color: white;
+  margin-top: 10px;
+}
+
+.sbs-btn{
+  width: 100%;
+  height: 50px;
+  background-color: blue;
+  border: none;
+  color: white;
+ font-weight: bold;
+ cursor: pointer;
+ transition: all 0.3s ease-in-out;
+}
+.sbs-btn:hover{
+  background-color: #fb8500;
+  color: black;
+}
+
+.icons-social{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.icons-social a{
+  color: white;
+  font-size: 28px;
+  padding: 8px 15px;
+  border-radius:50% ;
+  background-color: rgb(61, 61, 61);
+}
